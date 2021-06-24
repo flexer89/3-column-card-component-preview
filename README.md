@@ -56,10 +56,10 @@ Users should be able to:
 
 ### Useful resources
 
-- [Frontendmentor.](https://www.frontendmentor.io/solutions) - This provided me icons and style guide.
+- [Frontendmentor](https://www.frontendmentor.io/solutions) - This provided me icons and style guide.
 - [Flexbox guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - This is an amazing article which helped me finally understand Flexbox. I'd recommend it to anyone still learning this concept.
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@flexer89](https://www.frontendmentor.io/profile/yourusername)
 - Instagram - [@xflexer](https://www.instagram.com/xflexer/)
