@@ -1,0 +1,103 @@
+/*======================Structure===============*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 95%);  
+}
+.component-box {
+    display: flex;
+}
+.component-box div {    
+    display: flex;
+    flex-direction: column;
+    max-width: clamp(350px, 350px, 300px);
+    padding: 50px;
+}
+
+/*=================Card Content=================*/
+
+h2 {
+    
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-size: 40px;
+    color: hsl(0, 0%, 95%);
+    padding: 30px 0;
+    text-transform: uppercase;
+}
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'lexend deca', sans-serif;
+    padding: 20px 0 50px 0;
+    font-weight: 400;
+}
+.learn {
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'lexend deca', sans-serif;
+    padding: 16px 20px;
+    width: 70%;
+    margin: 30px 0 10px 0;
+    text-align: center;
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 30px;
+
+}
+
+/*==============Component and Box Colors===============*/
+
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+}
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+}
+
+.orange {
+    color: hsl(31, 77%, 52%);
+    border: 2px solid hsl(31, 77%, 52%);
+}
+.orange:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+    border-color: hsl(0, 0%, 95%);
+}
+.blue {
+    color: hsl(184, 100%, 22%);
+}
+.blue:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+
+}
+.green {
+    color: hsl(179, 100%, 13%);
+}
+.green:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+}
+
+/*==================Media Queries==================*/
+
+@media screen and (max-width: 600px)
+{
+    .component-box {
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 20px;
+    }
+    .component-box div {
+        max-width: 350px;
+    }
+}
